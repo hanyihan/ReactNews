@@ -1,25 +1,31 @@
 {
-  "name": "reactnews",
+  "name": "10-03",
   "version": "1.0.0",
-  "description": "one website built with react",
-  "main": "index.js",
+  "description": "",
+  "main": "root.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "hanhan",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-hot-loader": "^4.3.4",
-    "webpack": "^4.16.3",
-    "webpack-dev-server": "^3.1.5"
+    "antd": "^3.7.3",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "css-loader": "^0.25.0",
+    "json-loader": "^0.5.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-mixin": "^2.0.2",
+    "react-router": "^2.8.1",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.1"
   },
   "devDependencies": {
-    "webpack-cli": "^3.1.0"
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.0.1",
+    "webpack": "^3.0.0"
   }
 }
