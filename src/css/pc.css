@@ -132,6 +132,10 @@
     padding: 15px !important;
 }
 
+.ant-card-body ul {
+	padding-left: 0 !important;
+}
+
 .leftContainer{
   width:400px;
   float: left;
