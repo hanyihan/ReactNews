@@ -129,7 +129,7 @@ class PCHeader extends React.Component {
 							<Menu.Item key="shishang">
 								<Icon  type="appstore"/>时尚
 							</Menu.Item>
-							{userShow}
+							{userShow} 
 						</Menu>
 
 						<Modal title="用户中心" wrapClassName="vertical-center-modal" visible={this.state.modalVisible} onCancel= {()=>this.setModalVisible(false)} onOk={() => this.setModalVisible(false)} okText = "关闭">

@@ -15,7 +15,7 @@ export default class Root extends React.Component{
     	<MediaQuery query='(min-device-width:1224px)'>
         <Router history={hashHistory}>
           <Route path="/" component={PCIndex}></Route>
-          <Route path="/details" component={PCNewsDetails}></Route>
+          <Route path="/details/:uniquekey" component={PCNewsDetails}></Route>
         </Router>
     	</MediaQuery>
 
