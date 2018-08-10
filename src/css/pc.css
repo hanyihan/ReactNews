@@ -160,7 +160,7 @@
 
 /*image block******END*****/
  .title,.article-title .title {
-    font-size: 0.44rem !important;
+    font-size: 1.66rem !important;
     line-height: 1.4em
 }
 
@@ -169,7 +169,7 @@
 }
 
  .article-content .txt {
-    font-size: 0.36rem !important;
+    font-size: 1.22rem !important;
 }
 /*article content*/
 
@@ -278,4 +278,3 @@
     margin-top: -.21rem;
     left: .66rem
 }
-

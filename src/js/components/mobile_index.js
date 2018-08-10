@@ -1,6 +1,6 @@
 import React from 'react';
 import MobileHeader from './mobile_header';
-import MobileFooter from './monile_footer';
+import MobileFooter from './mobile_footer';
 import {Tabs, Carousel} from 'antd';
 import MobileList from './mobile_list';
 const TabPane = Tabs.TabPane;

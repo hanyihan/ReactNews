@@ -46,13 +46,10 @@ html {
     font-size: 0.36rem;
 }
 
-#mobileDetailsContainer .ant-row {
-    margin-top: 20px;
+.ucmobileList {
+  padding: 8px;
 }
 
-.ucmobileList {
-    margin-top: 60px;
-}
 
 .topbar {
     text-align: left !important;
