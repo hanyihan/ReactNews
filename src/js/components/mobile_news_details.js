@@ -3,6 +3,7 @@ import {Row, Col, BackTop} from 'antd';
 import MobileHeader from './mobile_header';
 import MobileFooter from './mobile_footer';
 import PCNewsImageBlock from './pc_news_image_block';
+import CommonComments from './common_comment';
 export default class MobileNewsDetails extends React.Component {
 	constructor() {
 		super();
@@ -30,6 +31,8 @@ export default class MobileNewsDetails extends React.Component {
           <Row>
   					<Col span={24} className="container">
   						<div class="articleContainer" dangerouslySetInnerHTML={this.createMarkup()}></div>
+							<hr/>
+							<CommonComments uniquekey={this.props.params.uniquekey} />
   					</Col>
   				</Row>
         </div>

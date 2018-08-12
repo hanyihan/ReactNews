@@ -38,9 +38,9 @@ class PCHeader extends React.Component {
 			{
 				this.setState({current: e.key});
 			}
-			
+
 		}
-		
+
 	};
 	handleSubmit(e)
 	{
@@ -80,11 +80,11 @@ class PCHeader extends React.Component {
 	render() {
 		const { getFieldProps } = this.props.form;
 
-		const userShow = this.state.hasLogined 
+		const userShow = this.state.hasLogined
 				? <Menu.Item key="logout" class="register">
 					<Button type="primary" htmlType="button">{this.state.userNickName}</Button>
 					&nbsp;&nbsp;
-					<Link target="_blank">
+					<Link target="_blank" to={`/usercenter`}>
 					<Button type="dashed" htmlType="button">个人中心</Button>
 					</Link>
 					&nbsp;&nbsp;
@@ -129,7 +129,7 @@ class PCHeader extends React.Component {
 							<Menu.Item key="shishang">
 								<Icon  type="appstore"/>时尚
 							</Menu.Item>
-							{userShow} 
+							{userShow}
 						</Menu>
 
 						<Modal title="用户中心" wrapClassName="vertical-center-modal" visible={this.state.modalVisible} onCancel= {()=>this.setModalVisible(false)} onOk={() => this.setModalVisible(false)} okText = "关闭">
