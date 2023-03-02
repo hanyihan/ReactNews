@@ -23,7 +23,7 @@
     "react-responsive": "^5.0.0",
     "react-router": "^2.8.1",
     "style-loader": "^0.13.1",
-    "webpack-dev-server": "^1.16.1"
+    "webpack-dev-server": "^4.11.1"
   },
   "devDependencies": {
     "babel-loader": "^7.1.5",
